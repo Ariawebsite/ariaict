@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission - Journal of Business and Social Science</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        #header {
+            background-color: #4B0082;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 30px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #4B0082;
+            margin-bottom: 20px;
+        }
+        .submission-form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .submission-form input, .submission-form textarea, .submission-form button {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .submission-form button {
+            background-color: #6A0DAD;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .submission-form button:hover {
+            background-color: #800080;
+        }
+        .instructions {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+        }
+			footer {
+            background-color: #4B0082;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #FFF0F5;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+            color: #E3F2FD;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 页眉 -->
+<div id="header">Submission</div>
+
+<!-- 主内容 -->
+<div class="container">
+    <h2>Submit Your Manuscript</h2>
+    <form class="submission-form" action="#" method="post" enctype="multipart/form-data">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email Address" required>
+        <input type="text" name="title" placeholder="Manuscript Title" required>
+        <input type="file" name="file" accept=".pdf,.docx" required>
+        <textarea name="message" rows="5" placeholder="Additional Notes (optional)"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div class="instructions">
+        <p><b>Instructions:</b></p>
+        <ul>
+            <li>Ensure your manuscript is in PDF or DOCX format.</li>
+            <li>Follow our submission guidelines for word count, formatting, and references.</li>
+            <li>Our team will review your submission within 5-7 business days.</li>
+        </ul>
+    </div>
+</div>
+
+<!-- 页脚 -->
+<footer>
+    <p>
+        <a href="index.html">Home </a>| <a href="About Journal.html">Journal</a> | 
+        <a href="Editorial Team.html">Editorial Team </a>|<a href="Plagiarism.html"> Plagiarism</a> | 
+        <a href="Submission and Contact.html" >Submission and contact</a>
+    </p>
+    <p>
+       Copyright © iPublishing Network of INTI International University. All rights reserved.
+    </p>
+</footer>
+
+</body>
+</html>
